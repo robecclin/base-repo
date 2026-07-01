@@ -1,0 +1,14 @@
+[project]
+name = "base-repo"
+version = "0.1.0"
+description = "Base repository with uv for dependency management"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "yamllint>=1.38.0",
+]
