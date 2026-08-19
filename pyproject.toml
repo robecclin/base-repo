@@ -15,3 +15,6 @@ dev = [
 ci = [
     "uv>=0.12.5",
 ]
+
+[tool.uv]
+exclude-newer = "3 days"
