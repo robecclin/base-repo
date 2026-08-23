@@ -1,7 +1,8 @@
 [project]
 name = "base-repo"
 version = "0.1.0"
-description = "Base repository with uv for dependency management"
+# Commented out to force Dependabot to classify this project as an application
+# description = "Base repository with uv for dependency management"
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
